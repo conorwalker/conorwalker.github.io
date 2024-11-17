@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! I am a bioinformatics scientist with a research background focusing on developing and applying statistical methods and machine learning methods to human 'omics data. I am currently working in computational immuno-oncology research and development at <a href="https://www.modernatx.com">Moderna</a>.
 
-Previously, I conducted postdoctoral research at the <a href="https://www.nygenome.org/">New York Genome Center</a> and <a href="https://www.columbia.edu/">Columbia University</a>. My work primarily focused on using a variety of statistical methods to model private information leakage from single-cell genomics data.
+Previously, I conducted postdoctoral research at the <a href="https://www.nygenome.org/">New York Genome Center</a> and <a href="https://www.columbia.edu/">Columbia University</a>. My work primarily focused on using a variety of statistical methods to model private information leakage from single-cell data.
 
 I received my PhD from the <a href="https://www.cam.ac.uk/">University of Cambridge</a>, conducting my research at the <a href="https://www.ebi.ac.uk/">European Bioinformatics Institute (EMBL-EBI)</a>. The main focus of my PhD was to statistically model small-scale rearrangements in human genomes. I also developed deep learning-based tests for detecting interspecific positive selection that are robust to alignment error, as well as working on several projects involving sequence and molecular evolutionary analyses of SARS-CoV-2 genomes.
 
