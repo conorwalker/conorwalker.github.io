@@ -8,15 +8,15 @@ middle_name: R.
 last_name: Walker
 email: conor@conorwalker.net
 description: Conor R. Walker
-footer_text: 
+footer_text:
 keywords:
-lang: en 
+lang: en
 icon: 🌊
 
 url: https://conorwalker.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 last_updated: false
-impressum_path: 
+impressum_path:
 back_to_top: false
 
 # -----------------------------------------------------------------------------
