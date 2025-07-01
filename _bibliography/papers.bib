@@ -1,6 +1,22 @@
 ---
 ---
 
+@article{10.1093/molbev/msaf154,
+    author = {West, Charlotte and Walker, Conor R. and Arasti, Shayesteh and Vasilev, Viacheslav and Xu, Xingze and De Maio, Nicola and Goldman, Nick},
+    title = {Detecting interspecific positive selection using convolutional neural networks},
+    journal = {Molecular Biology and Evolution},
+    pages = {msaf154},
+    year = {2025},
+    month = {06},
+    abstract = {Traditional statistical methods using maximum likelihood and Bayesian inference can detect positive selection from an interspecific phylogeny and a codon sequence alignment based on model assumptions, but they are prone to false positives due to alignment errors and can lack power. These problems are particularly pronounced when faced with high levels of indels and divergence. To address these issues, we trained and tested convolutional neural network (CNN) models on simulated data and achieved higher accuracy in detecting selection across a specific range of phylogenetic scenarios and evolutionary modes. This advantage is particularly evident when performing inference on noisy data prone to misalignments. Our method shows some ability to account for these errors, where most statistical frameworks fail to do so in a tractable manner. We explore the generalisability of our CNN models to unseen evolutionary scenarios and identify future avenues to achieve broader utility. Once trained, our CNN model is faster at test time, making it a scalable alternative to traditional statistical methods for large-scale, multi-gene analyses. In addition to binary classification (inference of the presence or absence of positive selection during the evolution of the sequences), we use saliency maps to understand what the model learns and observe how this could be leveraged for sitewise inference of positive selection.},
+    issn = {1537-1719},
+    doi = {10.1093/molbev/msaf154},
+    url = {https://doi.org/10.1093/molbev/msaf154},
+    eprint = {https://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msaf154/63629381/msaf154.pdf},
+    preview = {omega_ai.png}
+}
+
+
 ﻿@Article{Hong2025,
 author={Hong, Seungwan
 and Walker, Conor R.
@@ -44,21 +60,6 @@ issn={0092-8674},
 doi={10.1016/j.cell.2024.09.012},
 preview={single_cell_privacy.png},
 abstract = {The increase in publicly available human single-cell datasets, encompassing millions of cells from many donors, has significantly enhanced our understanding of complex biological processes. However, the accessibility of these datasets raises significant privacy concerns. Due to the inherent noise in single-cell measurements and the scarcity of population-scale single-cell datasets, recent private information quantification studies have focused on bulk gene expression data sharing. To address this gap, we demonstrate that individuals in single-cell gene expression datasets are vulnerable to linking attacks, where attackers can infer their sensitive phenotypic information using publicly available tissue or cell-type-specific expression quantitative trait loci (eQTLs) information. We further develop a method for genotype prediction and genotype-phenotype linking that remains effective without relying on eQTL information. We show that variants from one study can be exploited to uncover private information about individuals in another study.}
-}
-
-@article {West2024.11.18.624117,
-	author = {West, Charlotte and Walker, Conor R. and Arasti, Shayesteh and Vasilev, Viacheslav and Xu, Xingze and De Maio, Nicola and Goldman, Nick},
-	title = {Detecting interspecific positive selection using convolutional neural networks},
-	elocation-id = {2024.11.18.624117},
-	year = {2024},
-    month = {Nov},
-	doi = {10.1101/2024.11.18.624117},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Traditional statistical methods using maximum likelihood and Bayesian inference can detect positive selection from an interspecific phylogeny and a codon sequence alignment based on model assumptions, but they are prone to false positives due to alignment errors and can lack power. These problems are particularly pronounced when faced with high levels of indels and divergence. Leveraging the feature-detection capabilities of convolutional neural networks (CNNs), we achieve higher accuracy in detecting selection across a specific range of phylogenetic scenarios and evolutionary modes. This advantage is particularly evident with noisy data prone to misalignments. Our method shows some ability to account for these errors, where most statistical frameworks fail to do so in a tractable manner. We explore generalisability and identify future avenues to achieve broader utility. Once trained, our CNN model is faster at test time, making it a scalable alternative to traditional statistical methods for large-scale, multi-gene analyses. In addition to binary classification (inference of the presence or absence of positive selection during the evolution of the sequences), we use saliency maps to understand what the model learns and observe how this could be leveraged for sitewise inference of positive selection.},
-	URL = {https://www.biorxiv.org/content/early/2024/11/19/2024.11.18.624117},
-	eprint = {https://www.biorxiv.org/content/early/2024/11/19/2024.11.18.624117.full.pdf},
-	journal = {bioRxiv},
-    preview = {omega_ai.png}
 }
 
 
